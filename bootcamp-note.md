@@ -18,4 +18,7 @@ Aunque en realidad Markdown también se considera un lenguaje que tiene la final
   1. H3 `### text ###`
 
 
-1. para añadir una foto desde **markdown** `![foto](http://..)` ![foto](https://s-media-cache-ak0.pinimg.com/originals/0e/9b/c2/0e9bc208e1ad1fc03fdde5d1eecba64a.jpg)
+1. para añadir una foto desde **markdown** `![foto](http://..)` ![foto](https://s-media-cache-ak0.pinimg.com/originals/0e/9b/c2/0e9bc208e1ad1fc03fdde5d1eecba64a.jpg) [link en internet ](https://s-media-cache-ak0.pinimg.com/originals/0e/9b/c2/0e9bc208e1ad1fc03fdde5d1eecba64a.jpg)
+### Ejemplo ###
+1.
+# Aprendiendo __Git__  #
