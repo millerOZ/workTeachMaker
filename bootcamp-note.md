@@ -18,7 +18,7 @@ Aunque en realidad Markdown también se considera un lenguaje que tiene la final
   1. H3 `### text ###`
 
 
-1. para añadir una foto desde **markdown** `![foto](http://..)` ![foto](https://s-media-cache-ak0.pinimg.com/originals/0e/9b/c2/0e9bc208e1ad1fc03fdde5d1eecba64a.jpg) [link en internet de la fuente imagen ](https://s-media-cache-ak0.pinimg.com/originals/0e/9b/c2/0e9bc208e1ad1fc03fdde5d1eecba64a.jpg)
+1. para añadir una foto desde **markdown** `![foto](http://..)`
 ### Ejemplo ###
 1.
 # Aprendiendo __Git__  #
@@ -35,4 +35,51 @@ Aunque en realidad Markdown también se considera un lenguaje que tiene la final
 1. **git add** añadimos archivos de working directory al staging area
 1. **git dif** muestra las diferencias entre el working directory y el staging area
 1. **git commit** almacenar permanentemente los cambios de los archivo para subir al repositorio
-1. **git log** mostrar toda la lista del historial de los commit
+1. **git log** mostrar toda la lista del historial de los
+1. **git checkout HEAD filename** descarta los cambios en el working directory
+1. **gir reset HEAD filename** elimina los cambios en el archivo en el staging area
+1. **git branch** lista todos los branch del directorio
+
+# Aprendiendo __CSS__  #
+## menu ##
+1. definición
+1. Recomendaciones
+1. ejemplo
+
+### defininicion ###
+Resultado de imagen de css
+Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.
+
+*em* Son la unidad relativa por excelencia, y a veces resulta confuso entenderla. Por definición un em es igual al valor del font-size del elemento al que pertenece. Si el elemento que contiene una propiedad en em no tiene un font-size definido, lo heredará del padre, o del primer ancestro con font-size declarado – si ninguno tiene font-size declarado, tomará el del HTML: 100% -Si un elemento tiene un font-size declarado, todo otro valor dado en em en ese mismo elemento equivale a ese *font-size:*.
+
+`1em ` equivale a `14px`
+`list-style-type:` sirve para cambiar el estilo a las viñetas en el listado
+*
+## Especificidad ##
+la Especificidad gana a la cascada es un valor que adquieren los selectores y que determinan que reglas CSS (o estilos) se aplican a un elemento cuando existen conflictos
+
+
+## pseudo clases ##
+`:hover` cuando se pasa el cursor por ensima del elemento
+`:active` Cuando se hace click
+`:visited` un enlace al que ya se visito
+`:focus` un campo de formulario seleccionado
+`:empty` selecciona elementos vacios
+`:not()` selecciona a los elementos que no coincidan con el selector pasado como parametro
+`:selection` para aplicar estilos a la seleccion
+`:target` selecciona el destino de un enlace interno
+
+
+## Recomendaciones ##
+mantenér el código
+* ordenado
+* simple
+* sin repeticiones
+
+`!importan` siempre gana sobre Especificidad
+`!importan > Especificidad > cascada`
+## ¿Como se calcula la Especificidad ? ##
+* Etiquetas                 **: 1**
+* Clases y pseudoclases     **: 10**
+* Id                        **: 100**
+* Estilos en linea          **: 1000**
